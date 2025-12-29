@@ -14,12 +14,12 @@
 }
 
 #ar-ul>li:nth-child(1) {
-    background-color: rgb(85, 180, 220);
     height: 100%;
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid magenta;
 }
 
 

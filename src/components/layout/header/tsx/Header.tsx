@@ -1,12 +1,13 @@
 import "../styles/header.css";
 import "../styles/header__right.css"
+import MainLogo from "../../../../assets/SVGcomponents/MainLogo/MainLogo";
 
 export const Header = () => {
   return (
     <>
       <header className="ar-header">
         <ul id="ar-ul">
-            <li>Logo</li>
+            <li><MainLogo /></li>
             <li>
                 <nav className="ar-nav">
                     <ul>

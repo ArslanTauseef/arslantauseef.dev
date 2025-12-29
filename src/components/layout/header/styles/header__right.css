@@ -2,6 +2,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0 20px;
 }
 
@@ -13,6 +14,7 @@
     background-color: rgb(85, 180, 220);
     align-items: center;
     background-color: rgb(197, 161, 161);
-    height: 10px;
+    height: 100%;
     width: 100%;
+    border: 1px solid white;
 }
