@@ -3,7 +3,6 @@
     display: flex;
     height: var(--var-header-height);
     width: var(--var-header-width);
-    border: 1px solid white;
     justify-content: space-between;
     align-items: center;
 }
