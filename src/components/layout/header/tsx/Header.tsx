@@ -9,7 +9,7 @@ import { ArrayNavButtons } from "../../../subcomponents/constants/ArrayNavButton
 import { useEffect, useState } from "react";
 
 export const Header = () => {
-  const [mouse, setMousePos] = useState({ x: 0, y: 0 })
+  const [, setMousePos] = useState({ x: 0, y: 0 })
 
 useEffect(()=>{
  console.log("me")
