@@ -7,13 +7,17 @@ import { NavButtons } from "../../../subcomponents/buttons/Nav/NavButtons";
 import { circles } from "../../../subcomponents/constants/circles";
 import { ArrayNavButtons } from "../../../subcomponents/constants/ArrayNavButtons";
 import { useEffect, useState } from "react";
+import { handleRippleOnClick } from "../../../subcomponents/effects/ripples/RippleEffects";
 
 export const Header = () => {
-  const [, setMousePos] = useState({ x: 0, y: 0 })
+  const [, setMousePos] = useState({ x: 0, y: 0 });
+  const [ripples, setRipples] = useState<{
+    [key: number]: { x: number; y: number; size: number } | null;
+  }>({});
 
-useEffect(()=>{
- console.log("me")
-},[])
+  useEffect(() => {
+    console.log("me");
+  }, []);
 
   return (
     <header className="ar-header">
@@ -53,8 +57,29 @@ useEffect(()=>{
           {ArrayNavButtons.map((button, index) => {
             return (
               <li key={index}>
-                <NavButtons href={button.href} variant="primary" size="medium" onMouseMove={(pos) => setMousePos(pos)}>
+                <NavButtons
+                  href={button.href}
+                  variant="primary"
+                  size="medium"
+                  onMouseMove={(pos) => setMousePos(pos)}
+                  style={{ position: "relative", overflow: "hidden" }}
+                  onClick={(e) => handleRippleOnClick(e, index, setRipples)}
+                >
                   {button.label}
+                  {ripples[index] && (
+                <span
+                  className="ripple"
+                  style={{
+                    width: ripples[index]!.size,
+                    height: ripples[index]!.size,
+                    left: ripples[index]!.x - ripples[index]!.size / 2,
+                    top: ripples[index]!.y - ripples[index]!.size / 2,
+                  }}
+                  onAnimationEnd={() =>
+                    setRipples(prev => ({ ...prev, [index]: null }))
+                  }
+                />
+              )}
                 </NavButtons>
               </li>
             );
