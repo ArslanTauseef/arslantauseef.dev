@@ -9,10 +9,13 @@
 .left-main-section,
 .right-main-section {
     width: 50%;
+    height: 100%;
+}
+
+.right-main-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 .right-main-section>div {
@@ -29,4 +32,16 @@
     object-fit: contain;
     /* fits entire image inside viewport */
     display: block;
+}
+
+
+.left-main-section {
+    display: grid;
+    grid-template-rows: repeat(3);
+    align-items: center;
+    justify-content: center;
+}
+
+.left-main-section > div:nth-child(1) {
+    font-size:larger;
 }
