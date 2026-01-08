@@ -19,3 +19,9 @@
     border: 2px solid #ffffff;
     border-radius: 100%;
 }
+
+.circle-0 { width: 140px; height: 140px; }
+.circle-1 { width: 230px; height: 230px; }
+.circle-2 { width: 320px; height: 320px; }
+.circle-3 { width: 410px; height: 410px; }
+.circle-4 { width: 500px; height: 500px; }

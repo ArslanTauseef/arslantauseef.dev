@@ -1,8 +1,36 @@
 @media (min-width: 1990px) {
 
-.SVGPolygon {
-    width: 100%;
-    height: 60%;
-}
+    .SVGPolygon {
+        width: 100%;
+        height: 60%;
+    }
+
+    /* -------------------- */
+
+    .circle-0 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .circle-1 {
+        width: 340px;
+        height: 340px;
+    }
+
+    .circle-2 {
+        width: 430px;
+        height: 430px;
+    }
+
+    .circle-3 {
+        width: 520px;
+        height: 520px;
+    }
+
+    .circle-4 {
+        width: 610px;
+        height: 610px;
+    }
+
 
 }

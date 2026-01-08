@@ -23,11 +23,9 @@ export const Header = () => {
         {circles.map((circles, index) => {
           return (
             <motion.div
-              className="circles"
+              className={`circles circle-${index}`}
               key={index}
               style={{
-                width: circles.width,
-                height: circles.height,
                 opacity: circles.opacity,
               }}
               animate={{
