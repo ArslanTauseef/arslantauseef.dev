@@ -1,10 +1,10 @@
-import { section } from 'framer-motion/client'
-import React from 'react'
 
-export const footer = () => {
+
+export const Footer = () => {
   return (
     <section className='footer' >
-
+        <div>Left</div>
+        <div>Right</div>
     </section>
   )
 }

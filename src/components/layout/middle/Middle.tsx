@@ -1,5 +1,4 @@
 import "../../../styles/layout/middle/mid-middle/mid-middle.css"
-import MyPicture from "../../../assets/Pictures/MyPicture/MyPicture.png"
 import Pictureforherosection from "../../../assets/Pictures/MyPicture/Picture-For-Hero-Section.png"
 import { useRotatingTypewriter } from "../../subcomponents/effects/typewritter/useRotatingTypewriter";
 
