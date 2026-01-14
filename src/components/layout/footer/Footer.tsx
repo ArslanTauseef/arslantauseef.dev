@@ -7,45 +7,54 @@ import { FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
     return (
+        
         <footer className="ar-footer">
+                 <hr />
             <div className="up-footer">
-                <section className="left-footer">
-                    <div className="branding">
-                        <div aria-label="footer logo"><img src={Logo} style={{ width: "100%", height: "100%" }} alt="footer-logo" /></div>
-                        <h1 aria-label="Name in footer section">Arslan Tauseef</h1>
+                <section className="left-footer" >
+                    <div id="left-footer-up">
+                        <img src={Logo} alt="" />
+                        <h3>Arslan Tauseef</h3>
                     </div>
-                    <address>
+                    <div id="left-footer-down">
                         <ul>
                             <li><a href=""><FaSquareXTwitter /></a></li>
                             <li><a href=""><FaSquareGithub /></a></li>
                             <li><a href=""><FaLinkedin /></a></li>
                         </ul>
-                    </address>
+                    </div>
                 </section>
-                <section className="right-footer">
-                    <nav>
-                        <div>
-                            <h3>Explore</h3>
-                            <ul>
-                                <li><a href="">About</a></li>
-                                <li><a href="">Projects</a></li>
-                                <li><a href="">Services</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>Resources</h3>
-                            <ul>
-                                <li><a href="">Notes</a></li>
-                                <li><a href="">Tutorials</a></li>
-                                <li><a href="">Libraries</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+                <section className="middle-footer" >
+                    <div>
+                        <h2>Test 1</h2>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Test 2</h2>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Test 3</h2>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
                 </section>
             </div>
             <hr />
             <div className="down-footer">
-                @ Copyrights reserved to Arslan Tauseef
+                
+                <p style={{fontSize:"0.8rem"}}>@ Copyrights reserved to <span>Arslan Tauseef</span></p>
             </div>
         </footer>
     )
