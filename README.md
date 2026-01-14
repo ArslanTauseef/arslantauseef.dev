@@ -6,7 +6,7 @@ Perfect! Here’s the **clean, ready-to-copy README.md** for your repo. Just cop
 Welcome to my personal portfolio website, built with **Next.js**, **React**, **TypeScript**, and the **MERN stack**.  
 This project showcases my web development skills, projects, and experiments with modern front-end and back-end technologies.
 
-**Live site:** [arslantauseef.dev](https://arslantauseef.dev)
+**Live site..:** [arslantauseef.dev](https://arslantauseef.dev)
 
 ---
 
