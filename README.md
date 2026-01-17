@@ -1,4 +1,4 @@
-Perfect! Here’s the **clean, ready-to-copy README.md** for your repo. Just copy everything inside the code block and paste it into `README.md` in your project.
+Perfect! Here’s the **polished, ready-to-copy README.md** for your repo. Just copy everything inside the code block and paste it into `README.md` in your project.
 
 ```md
 # Arslan Tauseef Portfolio
@@ -94,5 +94,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 * Email: contact@arslantauseef.dev
 * GitHub: github.com/ArslanTauseef](https://github.com/ArslanTauseef)
 * Portfolio: https://arslantauseef.dev
-
 
